@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    border: 0;
+    line-height: 1rem;
+    font-family: 'Bai Jamjuree';
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 30%;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-img,
+.card-img img {
+    width: 100%;
+    height: auto
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body div {
+    margin: 10px 0;
+}
+
+.title {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}

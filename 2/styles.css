@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    border: 0;
+    line-height: 1rem;
+    font-family: 'Bai Jamjuree';
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 30%;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-img,
+.card-img img {
+    width: 100%;
+    height: auto
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body div {
+    margin: 10px 0;
+}
+
+.title {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search .input {
+    width: 80%;
+    padding: 0 15px;
+}
+
+.search .input label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.search .input input {
+    width: 100%;
+    padding: 7px 12px;
+    font-family: 'Bai Jamjuree';
+}
+
+.search .btn {
+    width: 20%;
+    position: relative;
+}
+
+.search .btn button {
+    bottom: 0;
+    cursor: pointer;
+    width: 100%;
+    padding: 7px 12px;
+    position: absolute;
+    background-color: #ffbb00;
+    font-family: 'Bai Jamjuree';
+    border-radius: 5px;
+    border: 2px solid #e0a501;
+}
+
+.not-found {
+    margin: auto;
+    font-size: 28px;
+}
